@@ -3,7 +3,7 @@ No requirement demo project
 
 
 
-### What is this repository for? ###execute tests
+### What is this repository for?
 
 * Quick summary.
 
@@ -65,27 +65,26 @@ this library uses
 - Execute REST methods with a platform for REST API development like [Postman] (https://www.postman.com/)
   - *POST: localhost:8080/person/post  
     - <Body raw> 
-	```Javascript
+	JSON: 
 	{
- "name" : "MyName",
- "lastName" : "MyLast",
+ "name" : 'MyName',
+ 'lastName' : 'MyLast',
  "address" : "245 street, city, state, Ctry 20105",
  "cellphone" : "9152240040"
 }
-    ```
-  - *GET (all): localhost:8080/person/
-  - *GET (single): localhost:8080/person/{id} example:  localhost:8080/person/1   
-  - *PUT: localhost:8080/person/put/{id} example:  localhost:8080/person/put/1
+    
+  - GET (all): localhost:8080/person/
+  - GET (single): localhost:8080/person/{id} example:  localhost:8080/person/1   
+  - PUT: localhost:8080/person/put/{id} example:  localhost:8080/person/put/1
 	- <Body raw> 
-	```Javascript
+	JSON: 
 	{
  "name" : "MyOtherName",
  "lastName" : "myOtherLast",
  "address" : "245 street, city, state, MX 25070",
  "cellphone" : "None"
 }
-    ```
-  - *DELETE: localhost:8080/person/delete/{id} example:  localhost:8080/person/delete/1
+  - DELETE: localhost:8080/person/delete/{id} example:  localhost:8080/person/delete/1
   
   
 
