@@ -1,4 +1,4 @@
-# Ejercicio Práctico de Lean Tech
+# LeanTech Technical
 No requirement demo project
 
 
